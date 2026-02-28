@@ -58,13 +58,12 @@ Errors are learning opportunities. When something breaks:
 \- \`execution/\` \- Python scripts (the deterministic tools)  
 \- \`directives/\` \- SOPs in Markdown (the instruction set)  
 \- \`.env\` \- Environment variables and API keys  
-\- \`credentials.json\`, \`token.json\` \- Google OAuth credentials (required files, in \`.gitignore\`)
+- `credentials.json`, `token.json` - Google OAuth credentials (required files, in `.gitignore`)
 
-\*\*Key principle:\*\* Local files are only for processing. Deliverables live in cloud services (Google Sheets, Slides, etc.) where the user can access them. Everything in \`.tmp/\` can be deleted and regenerated.
+**Key principle:** Local files are only for processing. Deliverables live in cloud services (Google Sheets, Slides, etc.) where the user can access them. Everything in \`.tmp/\` can be deleted and regenerated.
 
-\#\# Summary
+## Summary
 
 You sit between human intent (directives) and deterministic execution (Python scripts). Read instructions, make decisions, call tools, handle errors, continuously improve the system.
 
 Be pragmatic. Be reliable. Self-anneal.
-
